@@ -1,256 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bosquejo 1</title>
-    <link rel="stylesheet" href="style.css">
-    <!--Iconos-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="stilo.css">
 </head>
-
 <body>
-    <script src="scrip.js"></script>
+    <main class="main">
+        <header class="cabecera">
+            <a href="" class="cabecera_link"> <img src="img/logo.png" alt="" class="cabecera_img"></a>
+        </header>
+        <nav class="navegacion">
+            <a href="">Inicio</a>
+            <a href="">Nosotros</a>
+            <a href="">Servicios</a>
+            <a href="">Contanto</a>
 
-    <header class="navegacion" style="background-color: #a0431d;">
-
-        <div class="content">
-            <div class="menu container">
-
-                <h3 class="logo">Comedor "El buen sazón"</h3>
-                <input type="checkbox" id="menu" />
-
-                <label for="menu">
-                    <img src="img/menu.png" class="menu-icono" alt="">
-                </label>
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="contactos.html">Contactos</a></li>
-                        
-                    </ul>
-                </nav>
-
-
-                <!--* Carrito *-->
-                
-                <div>
-                    <ul>
-                        
-                        <li class="submenu">
-                            <img src="img/icons8-carrito-de-compras-30.png" id="img-carrito" alt="carrito">
-                            <div id="carrito">
-                                <table id="lista-carrito">
-                                    <thead>
-                                        <tr>
-                                            <th>Imagen</th>
-                                            <th>Nombre</th>
-                                            <th>Precio</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody></tbody>
-                                </table>
-                                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
-                            </div>
-                        </li>
-                    </ul>
+        </nav>
+        <!--se crea la primera seccion Banner-->
+        <section class="banner">
+            <img src="img/p2.jpg" alt="" width="250" height="200">
+            <h1>Esto es un ejemplo</h1>
+            <a href="">Ejemploenlace</a>
+        </section>
+        <!--se crea la segunda seccion-->
+        <section class="seccion-2">
+            <article class="area-izq"> <!--En HTML, <article> es un elemento que se utiliza para representar contenido independiente y autónomo en una página web. -->
+                <div class="titulo-izq">
+                    <h2>Servicios</h2>
+                    <h3>esto es solo un ejemplo de página web</h3>
                 </div>
-
-
-
-            </div>
-        </div>
-    </header>
-
-
-
-    <section class="seccion-1">
-        <div class="encabezado-img">
-
-
-        </div>
-
-    </section>
-
-    <br><br>
-    <div class="hr-container">
-        <hr>
-    </div>
-
-    <div class="text-principal">
-        <h3>Menú del día</h3>
-        
-    </div>
-
-
-    <!--Seccion 2, cards-->
-    <section class="seccion-2">
-        <div class="card">
-            <figure>
-                <img src="img/platillo-1.jpg" alt="">
-            </figure>
-            <div class="contenido">
-                <h3>platillo</h3>
-                <h2>$10</h2>
-                <p>descripcion</p>
-                <a href="ventana.html">Ver más.</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <figure>
-                <img src="img/platillo-2.jpg" alt="">
-            </figure>
-            <div class="contenido">
-                <h3>platillo</h3>
-                <h2>$10</h2>
-                <p>descripcion</p>
-                <a href="#">Ver más.</a>
-            </div>
-        </div>
-
-
-        <div class="card">
-            <figure>
-                <img src="img/platillo-3.jpg" alt="">
-            </figure>
-            <div class="contenido">
-                <h3>platillo</h3>
-                <h2>$10</h2>
-                <p>descripcion</p>
-                <a href="#">Ver más.</a>
-            </div>
-        </div>
-    </section>
-    <br>
-
-    <section class="seccion-2">
-        <div class="card">
-            <figure>
-                <img src="img/platillo-1.jpg" alt="">
-            </figure>
-            <div class="contenido">
-                <h3>platillo</h3>
-                <h2>$10</h2>
-                <p>descripcion</p>
-                <a href="#">Ver más.</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <figure>
-                <img src="img/platillo-2.jpg" alt="">
-            </figure>
-            <div class="contenido">
-                <h3>platillo</h3>
-                <h2>$10</h2>
-                <p>descripcion</p>
-                <a href="#">Ver más.</a>
-            </div>
-        </div>
-
-
-        <div class="card">
-            <figure>
-                <img src="img/platillo-3.jpg" alt="">
-            </figure>
-            <div class="contenido">
-                <h3>platillo</h3>
-                <h2>$10</h2>
-                <p>descripcion</p>
-                <a href="#">Ver más.</a>
-            </div>
-        </div>
-    </section>
-
-
-    <br><br>
-
-    
-    <br>
-    <div class="hr-container">
-        <hr>
-    </div>
-    <br><br>
-    
-    <!--Horario-->
-    <div class="hr-container">
-        <hr>
-    </div>
-    <br><br>
-    <div class="horario">
-        <h2 class="horario-titulo">Horarios de atención</h2><br><br>
-        <div class="">
-            <div class="horario-lista">
-                <ul>
-                    <li><span class="dia">Lunes:</span></li>
-                    <li><span class="hora">7:00 AM - 4:30 PM</span>
-                </ul>
-                <div class="divider"></div>
-                <ul>
-                    <li><span class="dia">Martes:</span></li>
-                    <li><span class="hora">7:00 AM - 4:30 PM</span>
-                </ul>
-                <div class="divider"></div>
-                <ul>    
-                    <li><span class="dia">Miércoles:</span></li>
-                    <li><span class="hora">7:00 AM - 4:30 PM</span>
-                </ul>
-                <div class="divider"></div>
-                <ul>    
-                    <li><span class="dia">Jueves:</span></li>
-                    <li><span class="hora">7:00 AM - 4:30 PM</span>
-                </ul>
-                <div class="divider"></div>
-                <ul>    
-                    <li><span class="dia">Viernes:</span></li>
-                    <li><span class="hora">7:00 AM - 4:30 PM</span>
-                </ul>
-                <div class="divider"></div>
-                <ul>    
-                    <li><span class="dia">Sábado:</span></li>
-                    <li><span class="hora">7:00 AM - 4:30 PM</span>
-                </ul>
-                <div class="divider"></div>
-                <ul>    
-                    <li><span class="dia">Domingo:</span></li>
-                    <li><span class="hora">7:00 AM - 4:30 PM</span>
-                </ul>
-            </div>
-        </div>
-        
-    </div>
-
-
-
-    <footer class="pie-pagina">
-        <div class="grupo-1">
-
-            <div class="box">
-                <h2>Contactanos</h2>
-                <p>Direccion: Nos ubicamos en el bulevar Eucaria Apreza a un costado de carnes asadas Tío Polo.</p>
-                <p>Telefono: 7561293307 y 7474739859.</p>
-                <div class="red-social">
-                    <a href="" class="whatsapp"><i class="fab fa-facebook-f"></i></a>
-                    <a href="" class="facebook"><i class="fab fa-whatsapp" ></i></a>
+                <div class="img-izq">
+                    <img src="img/bosque.jpg" alt="" height="150" width="150">
                 </div>
-
+                <p class="parrafo-izq">esto es solo un ejemplo de página web esto es solo un ejemplo de página web</p>
+            </article>
+            <aside class="area-der">
+                <div class="titulo-der">
+                    <h3>Noticias</h3>
+                </div>
+                <div class="noticias-der">
+                    <div class="noticias-img">
+                        <img src="img/pai.jpg" alt="" width="150" height="150">
+                    </div>
+                    <div class="noticias-texo">
+                        <h4>Otras noticias</h4>
+                        <p>esto es solo un ejemplo de página web esto es solo un ejemplo de página web esto es solo un ejemplo de página web esto es solo un ejemplo de página web</p>
+                    </div>
+                    <div class="noticias-texo">
+                        <h3>Más noticias</h3>
+                    </div>
+                    <div class="noticias-der">
+                        <div class="noticias-img">
+                            <img src="img/p-3.jpg" alt="" width="150" height="150">
+                        </div>
+                        <div class="noticias-texto">
+                            <h4>Mas ejemplos de noticias</h4>
+                            <p>esto es solo un ejemplo de página web esto es solo un ejemplo de página web esto es solo un ejemplo de página web esto es solo un ejemplo de página web</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    
+        <!--se crea la tercera seccion-->
+        <section class="seccion-3">
+            <nav class="navegacion-footer">
+                <a href="">Inicio</a>
+                <a href="">Nosotros</a>
+                <a href="">Servicios</a>
+                <a href="">Contanto</a>
+            </nav>
+            <div class="contenedor-3">
+                <div class="textos-3">
+                    <h3>Sbtitulo 1</h3>
+                    <a href="">Enlace 1</a>
+                    <a href="">Enlace 2</a>
+                    <a href="">Enlace 3</a>
+                </div>
+                <div class="textos-3">
+                    <h3>Sbtitulo 2</h3>
+                    <a href="">Enlace 1</a>
+                    <a href="">Enlace 2</a>
+                    <a href="">Enlace 3</a>
+                </div>
+                <div class="textos-3">
+                    <h3>Sbtitulo 3</h3>
+                    <a href="">Enlace 1</a>
+                    <a href="">Enlace 2</a>
+                    <a href="">Enlace 3</a>
+                </div>
+                <div class="textos-3">
+                    <h3>Sbtitulo 4</h3>
+                    <a href="">Enlace 1</a>
+                    <a href="">Enlace 2</a>
+                    <a href="">Enlace 3</a>
+                </div>
             </div>
-            <div class="box">
-            
-                    <img src="img/logo.jpg" alt="">
-                
-            </div>
+            <footer class="footer">
+                & Todos los derechos reservados 
+            </footer>
 
-        </div>
-        <div class="grupo-2">
-            <small>&copy; 2024 <b>Comedor el "Buen sazón"</b> - Todos los Derechos Reservados</small>
-        </div>
-    </footer>
+        </section>
 
+
+
+    </main>
 </body>
-
 </html>
